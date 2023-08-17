@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Register</title>
+    <link type="text/css" rel="stylesheet" href="style1.css">
+    <style>
+        .background{
+    position: absolute;
+    height:120%;
+    width:100%;
+    background-image:url("https://www.primalstrength.com/cdn/shop/files/gym_design_Headers.jpg?v=1680779429&width=2000");
+    background-size:fill;
+    background-position: center;
+    z-index: -1;
+}
+label{
+    width:100px;
+    display:inline-block;
+}
+    </style>
+</head>
+
+<body>
+<div class="background"></div><br><br>
+ <h1 style="font-size:210px"><b>ANYTIME FITNESS</b></h1>
+  <form action="register.php" method="post">
+            <div class="div4">
+                <h3><b>SIGN UP</b></h3>
+                <label style="color: #fff;">UserID  :</label>
+                    <input type="text" name="uid" id="uid"><br>
+                    <label style="color: #fff;">Name :</label>
+                    <input type="text" name="uname" id="username"><br>
+                    <label style="color: #fff;">Phone   :</label>
+                    <input type="text" name="phone" id="phone"><br>
+                    <label style="color: #fff;">Email   :</label>
+                    <input type="email" name="email" id="email"><br>
+                    <label style="color: #fff;">Password:</label>
+                    <input type="password" name="password" id="password"><br><br>
+                    <input  type="submit" class="btn" name="submit" value="Register">
+                    <label style="color: #fff;">Already a member?</label> <a href="loginpage.html">Sign In</a></div>
+</body>
+</html>
